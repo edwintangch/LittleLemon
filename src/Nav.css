@@ -1,0 +1,24 @@
+.logo {
+    grid-column: span 6;
+}
+
+.nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    grid-column: span 6;
+    justify-self: end;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding: 0 1rem 0;
+    white-space: nowrap;
+}

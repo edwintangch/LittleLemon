@@ -1,0 +1,9 @@
+.highlights h1{
+    color: var(--highlight-dark);
+    font-size: 70px;
+}
+
+.highlights > div {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,22 +1,29 @@
 import './App.css';
-import Header from'./Header.js';
 import Nav from './Nav.js';
-import Main from './Main.js';
 import Footer from './Footer.js';
+import Home from './Home.js';
+import AboutPage from './AboutPage';
+import {Routes, Route} from 'react-router-dom';
+import OrderOnline from './OrderOnline';
+import Login from './Login';
+import Menu from './Menu';
+import Reservations from './Reservations';
 
 
 function App() {
   return (
-    <>
-      <meta name="description" content="A very good restaurant"/>
-      <meta name="og:title" content="Little Lemon"/>
-      <meta name="og:description" content="A very good restaurant"/>
-      <meta name="og:image" content=""/>
-      <Header />
+    <div className="App">
       <Nav />
-      <Main />
+      <Routes>
+        <Route path="/home" element={<Home/>} />
+        <Route path="/aboutpage" element={<AboutPage/>} />
+        <Route path="/menu" element={<Menu/>} />
+        <Route path="/reservations" element={<Reservations/>} />
+        <Route path="/orderonline" element={<OrderOnline/>} />
+        <Route path="/login" element={<Login/>} />
+      </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

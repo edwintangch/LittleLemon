@@ -1,0 +1,42 @@
+.main-background {
+    background-color: var(--primary-dark);
+    height: 490px;
+    overflow: hidden;
+}
+
+.main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main > div {
+    grid-column: span 4;
+}
+
+.main h1, .main h2 {
+    white-space: nowrap;
+}
+
+.main h1 {
+    color:var(--primary-bright);
+    font-size: 64pt;
+}
+
+.main > img {
+    position: absolute;
+    grid-column: 7/ span 6;
+    justify-self: end;
+    object-fit: cover;
+    width: 400px;
+    height: 490px;
+    border-radius: 13px;
+}
+
+.main > div span {
+    margin-top: 1rem;
+}
+
+h2 + p {
+    margin: 1rem 0 1rem;
+    color: white;
+}
