@@ -1,0 +1,36 @@
+.footer-background {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    background-color: var(--primary-dark);
+}
+
+.footer img {
+    height: 200px;
+    grid-column: span 3;
+}
+
+.footer .title {
+    color: var(--secondary-bright);
+    font-weight: bold;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer ul li {
+    text-decoration: none;
+    color: var(--highlight-bright);
+    align-self: self-start;
+    margin:0.2rem 0 0.2rem;
+}
+
+.footer ul a {
+    align-self: self-start;
+    padding: 0;
+}
+
+.footer > div {
+    grid-column: span 3;
+}

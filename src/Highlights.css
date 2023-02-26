@@ -1,3 +1,18 @@
+.highlights {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.highlights > div > span {
+    align-self: center;
+}
+
+.highlights > div:first-child {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
 .highlights h1{
     color: var(--highlight-dark);
     font-size: 70px;
