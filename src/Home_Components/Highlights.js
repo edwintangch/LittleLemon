@@ -1,9 +1,9 @@
 import './Highlights.css';
-import salad from './Assets/greek salad.jpg';
-import bruchetta from './Assets/bruchetta.png';
-import lemon from './Assets/lemon.jpg';
+import salad from '../Assets/greek salad.jpg';
+import bruchetta from '../Assets/bruchetta.png';
+import lemon from '../Assets/lemon.jpg';
 import {Link} from 'react-router-dom';
-import MenuCard from './MenuCard';
+import MenuCard from '../Card_Components/MenuCard';
 
 function Highlights() {
     return (

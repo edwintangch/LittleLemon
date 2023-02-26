@@ -1,9 +1,9 @@
 import './Testimonials.css';
-import ReviewCard from './ReviewCard';
-import person1 from './Assets/person1.jpg';
-import person2 from './Assets/person2.jpg';
-import person3 from './Assets/person3.jpg';
-import person4 from './Assets/person4.jpg';
+import ReviewCard from '../Card_Components/ReviewCard';
+import person1 from '../Assets/person1.jpg';
+import person2 from '../Assets/person2.jpg';
+import person3 from '../Assets/person3.jpg';
+import person4 from '../Assets/person4.jpg';
 
 function Testimonials() {
     return (

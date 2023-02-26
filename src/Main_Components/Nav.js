@@ -1,6 +1,6 @@
 import './Nav.css';
-import Logo from "./Assets/Logo.svg";
-import hamMenu from "./Assets/hamburger-menu.svg";
+import Logo from "../Assets/Logo.svg";
+import hamMenu from "../Assets/hamburger-menu.svg";
 import { Link } from 'react-router-dom';
 import React, {useRef} from 'react';
 

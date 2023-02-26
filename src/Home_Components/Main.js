@@ -1,4 +1,4 @@
-import Photo from './Assets/restauranfood.jpg';
+import Photo from '../Assets/restauranfood.jpg';
 import './Main.css';
 import {Link} from 'react-router-dom';
 

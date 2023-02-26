@@ -1,6 +1,6 @@
 import './Abouts.css'
-import about1 from './Assets/about1.jpg';
-import about2 from './Assets/about2.jpg';
+import about1 from '../Assets/about1.jpg';
+import about2 from '../Assets/about2.jpg';
 
 
 function Abouts() {

@@ -1,6 +1,6 @@
 import './ReviewCard.css';
-import star from './Assets/star.png';
-import starGrey from './Assets/starGrey.png';
+import star from '../Assets/star.png';
+import starGrey from '../Assets/starGrey.png';
 
 
 function ReviewCard(props){

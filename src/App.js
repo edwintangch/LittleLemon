@@ -1,13 +1,13 @@
 import './App.css';
-import Nav from './Nav.js';
-import Footer from './Footer.js';
-import Home from './Home.js';
-import AboutPage from './AboutPage';
+import Nav from './Main_Components/Nav.js';
+import Footer from './/Main_Components/Footer.js';
+import Home from './/Main_Components/Home.js';
+import AboutPage from './Main_Components/AboutPage';
 import {Routes, Route} from 'react-router-dom';
-import OrderOnline from './OrderOnline';
-import Login from './Login';
-import Menu from './Menu';
-import Reservations from './Reservations';
+import OrderOnline from './Main_Components/OrderOnline';
+import Login from './Main_Components/Login';
+import Menu from './Main_Components/Menu';
+import Reservations from './Main_Components/Reservations';
 
 
 function App() {
