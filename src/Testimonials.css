@@ -19,6 +19,15 @@
 }
 
 .testimonials > div {
-    display: flex;
-    justify-content: space-between;
+    gap:1rem
+}
+
+.reviewcard {
+    grid-column: span 3;
+}
+
+@media screen and (max-width: 900px) {
+    .reviewcard {
+        grid-column: span 2;
+    }
 }

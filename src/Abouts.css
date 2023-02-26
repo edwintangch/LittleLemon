@@ -50,5 +50,23 @@
 
 h2 + p {
     margin: 1rem 0 1rem;
-    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    .abouts {
+        gap: 1rem;
+    }
+    .abouts > img {
+        position: relative;
+        grid-column: span 2;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .abouts > img:last-of-type {
+        transform: translate(0, 0);
+    }
+    h2 + p {
+        margin: 1rem 0 0;
+    }
 }

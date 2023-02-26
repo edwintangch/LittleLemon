@@ -1,6 +1,5 @@
 .menu-card {
     background-color: #EDEFEE;
-    max-width: 250px;
     height: 430px;
     border-radius: 16px;
 }
@@ -48,4 +47,10 @@
     font-weight: bold;
     text-decoration: none;
     color:black;
+}
+
+@media screen and (max-width: 900px) {
+    .menu-card {
+        height: 300px;
+    }
 }

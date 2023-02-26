@@ -43,5 +43,6 @@ p{
     font-weight: bold;
     background-color: var(--primary-bright);
     text-decoration: none;
+    white-space: nowrap;
     color: var(--highlight-dark);
 }

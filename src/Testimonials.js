@@ -8,9 +8,9 @@ import person4 from './Assets/person4.jpg';
 function Testimonials() {
     return (
         <div className="testimonials-background">
-          <div className="testimonials grid">
+          <div className="testimonials">
             <h1>Testimonials</h1>
-            <div>
+            <div className='grid'>
               <ReviewCard photo={person1} rating={4} name="Teri Dactyl" reviewtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"/>
               <ReviewCard photo={person2} rating={5} name="Rod Knee" reviewtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"/>
               <ReviewCard photo={person3} rating={4} name="Rose Bush" reviewtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"/>

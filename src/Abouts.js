@@ -9,7 +9,7 @@ function Abouts() {
         <div className="abouts grid">
           <div>
             <h1>Little Lemon</h1>
-            <h2>Chicage</h2>
+            <h2>Chicago</h2>
             <p className="white-font">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
           </div>
